@@ -1,3 +1,42 @@
-hi
+The core components of Linux (kernel, user space, init/systemd)
+How processes are created and managed
+What systemd does and why it matters
 
-  
+#linux:-
+1.kernel:-
+the kernel is used as a translator between the shell and the hardware
+it may used for the to translate the human language into the machine language (human readable to binary)
+user:-
+user have two types
+user spacee:-
+the kernel space and the user space, bridged by the System Call Interface 
+with systemd acting as the foundation of all user-space management
+init:-init is the process of the server they can be run program one by one it takes more time for runnning the 
+server
+systemd:-it is the process they can be run program at one time it takes less time
+and it is a new technology used for linux
+
+2.we can created the process using the operating system and managed by the linux kernel.
+
+3.systemd we can used for to run the process all at the one time it is a new process that takes the less time 
+to run the program
+Question:-
+Explain process states (running, sleeping, zombie, etc.)
+List 5 commands you would use daily
+Keep it short and practical (under 1 page)
+Use bullet points and short headings
+
+Answer:-
+1.The main process are basically is sleeping ,stop ,running ,execute
+Sleeping :- Basically slepping we can use for the to execute the program at the set time
+stop:- stop is basically used for the to stop the program.
+running:- Its used for to run the program or the server
+execute:-we can use it for to execute the program
+
+2.Basically mainly used five command are 
+1.pwd
+2. ls
+3.touch
+4.mkdir
+5.cd
+
