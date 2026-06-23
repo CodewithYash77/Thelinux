@@ -77,4 +77,4 @@ in a case of the ping command the we can check the connectivity of the server of
 2.ip addr:-
 the ip addr we can used it for to checking the ip address of the server
 3.dig:-
-we can used dig for the taking the name and dns information
+we can used dig for the taking the name of the dns and domain information information
