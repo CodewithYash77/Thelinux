@@ -1,0 +1,29 @@
+# The 19 Standard Directories in Linux
+
+Everything in Linux starts from the root directory, represented by a single forward slash (`/`). Here is a breakdown of the 19 standard system directories:
+
+## 1. Core System Directories
+* `/` (Root) — The top-level directory that forms the base of the entire Linux file system.
+* `/bin` — Contains essential command binaries required for the system to boot and run in single-user mode (e.g., `ls`, `cp`).
+* `/boot` — Stores static files needed to boot the system, such as the Linux kernel and GRUB bootloader configuration.
+* `/dev` — Contains device nodes or special files that represent physical hardware components (e.g., hard drives, USB ports).
+* `/etc` — Holds system-wide configuration files and startup scripts required by all applications and services.
+* `/home` — The personal directory space containing individual user folders, documents, and settings.
+* `/lib` — Contains essential shared library files and kernel modules needed by binaries in `/bin` and `/sbin`.
+* `/sbin` — Stores essential system administration binaries reserved for the root user (e.g., `iptables`, `fdisk`).
+
+## 2. System Runtime & Information Directories
+* `/lost+found` — A special directory used by the system to recover corrupted files after an improper shutdown.
+* `/media` — Act as a temporary mount point for removable storage devices like USB drives and CD-ROMs.
+* `/mnt` — A temporary mount point used by system administrators to manually mount filesystems or network drives.
+* `/opt` — Reserved for installing optional or third-party add-on software packages (e.g., Google Chrome).
+* `/proc` — A virtual filesystem providing real-time system and process information from the Linux kernel.
+* `/root` — The dedicated home directory for the system's superuser (root account).
+* `/run` — Stores volatile runtime data that describes the system's state since its last boot sequence.
+
+## 3. Data & Variable Directories
+* `/srv` — Contains site-specific data that is served by the system, such as web server files or FTP data.
+* `/sys` — A modern virtual filesystem that exposes device and driver information directly from the Linux kernel.
+* `/tmp` — A temporary storage space where applications write short-lived data; it is often cleared upon reboot.
+* `/usr` — The largest directory structure containing user binaries, documentation, source code, and shared libraries.
+* `/var` — Stores variable data files that are expected to grow dynamically, such as system logs, databases, and mail queues.
