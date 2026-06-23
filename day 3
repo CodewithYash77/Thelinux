@@ -2,14 +2,79 @@ Question :-
 1.Process management
 File system
 Networking troubleshooting
-
+Answer:-
+Process Management:-
+The process management is the process that start from the starting the computer and the they can takes a command on linux kernel and give the task to the 
+computer the the process of the process management.
+file System:-
+In a case of the file system we can perform many more task on the file or the folder of the linux kernel
+first a fall we can make a empty file using a touch command and then we can compute it into the linux kernel and then
+we can run the command of the linux on to the shell 
+we can run sleep ,stop ,run and many more function on it
+Network troubleShooting:-
+The network trouble shooting is the concept that can be USED FOR networking concept of the server 
+means one network doesn't connected to the another network server by internet connection it may be 
+solving by the networking trouble shooting
 
 Question:-
 2.Include at least 20 commands with one‑line usage notes
 Add 3 networking commands (ping, ip addr, dig, curl, etc.)
 Group commands by category
 Keep it concise and readable
+1.pwd:-
+we can use it for to check the present working directory
+2.whoami:-
+they can give the answer of the present user means in which user we are present
+3.Man:-
+the man concept we can used for the manual,they can give the informaton of the coammand
+4.whatis:-
+they can also give us information but in a one line
+5.--help:-
+they can also work as a man command but they can give us more information about the command greater information than man coammand
+6.touch:-
+the touch command we can used for the creating the empty file or to change the timestramp of the file.
+7.cat:-
+in a case of the cat we can create or read a file
+8.cat>/cat>>:-
+(>)in a case of the cat command single > they can be used for to edit the file but if we can again open the file they can be overwrite
+means they can be delete old data and add new data.
+(>>) in a case of it they can also used for editing the file also it can be override the file
+means it can be store old data and also take new data without deleting old data
+9.Mkdir:-
+the mkdir we can used it for to craeate a empty dir
+10.ls:-
+we can used ls for to take the information about present directory in the user or root
+11.ls -al:-
+we can used it to check the hidden file of the dir 
+12.ls -l:-
+we can used it for to check list the or checking the file permission or timestramp
+13.vi:-
+we can used vi as a editor to edit the file information
+14.vim:-
+vim is the advance  concept of the vi and it also edit the file
+15.cd:-
+we can used cd for to changing the directory ex., to change the directory from one dir to another dir 
+and also we can used for it to backword from one directoy to another directory
+16.rm:-
+we can usedrm for to remove the file from the directory
+17.rmdir:-
+we can used it for to remove directory but in a case of directory they have the present the file we cannot remove it directly
+18.rm -r:-
+we can directly or forcefullly deleted the folder using rm -r
+19.ping :-
+we can used ping command for the checking the connection f the server.
+20.ip addr:-
+we can used ip addr for to check the ip address of the the server.
+21.hostname:-
+to check the hostname of the current server
+22.useradd:-
+we can add the user or change the user name using it
 
-
-Question:-
+answer:-
 3.
+1.ping:-
+in a case of the ping command the we can check the connectivity of the server of one to another server.
+2.ip addr:-
+the ip addr we can used it for to checking the ip address of the server
+3.dig:-
+we can used dig for the taking the name and dns information
