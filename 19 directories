@@ -27,3 +27,61 @@ Everything in Linux starts from the root directory, represented by a single forw
 * `/tmp` — A temporary storage space where applications write short-lived data; it is often cleared upon reboot.
 * `/usr` — The largest directory structure containing user binaries, documentation, source code, and shared libraries.
 * `/var` — Stores variable data files that are expected to grow dynamically, such as system logs, databases, and mail queues.
+
+
+1. / (Root Directory)
+ही संपूर्ण Linux सिस्टीमची मुख्य (Main) डायरेक्टरी आहे. बाकीच्या सर्व फोल्डर्स आणि फाइल्स याच रूट डायरेक्टरीच्या आत असतात.
+
+2. /bin (Essential User Binaries)
+यामध्ये सिस्टीम सुरू करण्यासाठी आणि नेहमी लागणारे आवश्यक कमांड्स (जसे की ls, cp, mv, rm) असतात.
+
+3. /sbin (System Binaries)
+हे फक्त System Administrator (Root User) साठी लागणारे महत्त्वाचे कमांड्स ठेवते. उदा. सिस्टीम रीबूट करणे किंवा डिस्क मॅनेज करणे (fdisk, iptables).
+
+4. /home (User Home Directories)
+तुम्ही (User) जेव्हा नवीन फाईल किंवा फोल्डर तयार करता, तेव्हा ते या डिरेक्टरीत सेव्ह होते. जसे की तुमच्या कॉम्प्युटरमध्ये 'My Documents' असते, तसेच हे आहे.
+
+5. /root (Root User Home)
+हा सिस्टीमचा मुख्य मालक (Administrator) म्हणजेच Root User चा वैयक्तिक (Private) होम फोल्डर आहे.
+
+6. /etc (Configuration Files)
+सिस्टीमच्या आणि सर्व सॉफ्टवेअर्सच्या सर्व Settings (Configuration Files) या फोल्डरमध्ये असतात. उदा. नेटवर्क सेटिंग्स किंवा युझर लिस्ट.
+
+7. /var (Variable Data)
+ज्या फाईल्सचा आकार सतत बदलत राहतो (उदा. Log Files, डेटाबेस, ई-मेल्स), त्या सर्व इथे साठवल्या जातात.
+
+8. /tmp (Temporary Files)
+सिस्टीम किंवा एखादे सॉफ्टवेअर चालू असताना ज्या तात्पुरत्या (Temporary) फाईल्स लागतात, त्या इथे तयार होतात. कॉम्प्युटर रीस्टार्ट केल्यावर हा फोल्डर ऑटोमॅटिक रिकामा होतो.
+
+9. /usr (User Applications)
+यामध्ये युझरने इन्स्टॉल केलेले सॉफ्टवेअर्स, प्रोग्राम्स आणि लायब्ररीज असतात. हा Linux मधील सर्वात मोठा फोल्डर मानला जातो.
+
+10. /opt (Optional Software)
+थर्ड-पार्टी किंवा बाहेरून डाउनलोड केलेले मोठे सॉफ्टवेअर्स (उदा. Google Chrome, Adobe, किंवा एखादे कस्टमाइज्ड ॲप) इन्स्टॉल करण्यासाठी ही जागा वापरली जाते.
+
+11. /dev (Device Files)
+Linux मध्ये प्रत्येक हार्डवेअरला (जसे की पेनड्राईव्ह, माऊस, हार्डडिस्क) एक फाईल मानले जाते. त्या सर्व उपकरणांच्या फाईल्स इथे असतात.
+
+12. /proc (Process Information)
+ही एक आभासी (Virtual) डायरेक्टरी आहे. सध्या बॅकग्राउंडला कोणते Processes (कामं) चालू आहेत आणि CPU/RAM ची काय स्थिती आहे, याची माहिती यात असते.
+
+13. /sys (System Information)
+ही सुद्धा व्हर्च्युअल डायरेक्टरी आहे, जी तुमच्या कॉम्प्युटरच्या हार्डवेअर आणि कर्नल (Kernel) बद्दलची माहिती दाखवते.
+
+14. /boot (Bootloader Files)
+कॉम्प्युटर सुरू (Boot) होण्यासाठी लागणाऱ्या अत्यंत महत्त्वाच्या फाईल्स आणि Linux कर्नल (vmlinuz) इथे सेव्ह असतात.
+
+15. /lib (System Libraries)
+/bin आणि /sbin मधील कमांड्स व्यवस्थित चालण्यासाठी ज्या Shared Libraries (सपोर्टिंग फाईल्स) लागतात, त्या इथे असतात (जसे Windows मध्ये .dll फाईल्स असतात).
+
+16. /mnt (Mount Directory)
+जेव्हा तुम्ही तात्पुरते काही जोडता (उदा. एखादी दुसरी हार्डडिस्क नेटवर्कवरून जोडणे), तेव्हा ती इथे 'Mount' म्हणजेच सिस्टीमला लिंक केली जाते.
+
+17. /media (Removable Media)
+पेनड्राईव्ह (USB), CD-ROM किंवा मेमरी कार्ड कॉम्प्युटरला जोडल्यावर ते ऑटोमॅटिकली या डायरेक्टरीच्या आत दिसू लागतात.
+
+18. /srv (Service Data)
+तुमच्या सिस्टीमवर जर एखादा सर्वर (उदा. Web Server किंवा FTP Server) चालू असेल, तर त्या सर्वरचा मुख्य डेटा या फोल्डरमध्ये ठेवला जातो.
+
+19. /run (Runtime Data)
+सिस्टीम सुरू झाल्यापासून (Boot) आतापर्यंत सिस्टीममध्ये काय काय बदल झाले किंवा कोणते ॲप्स सध्या रन होत आहेत, याचा तात्पुरता डेटा यात साठवला जातो.
