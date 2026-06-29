@@ -1,1 +1,45 @@
 
+⚙️ Process Management
+ps aux – Displays a snapshot of all currently running processes on the system.
+
+top – Provides a real-time, interactive view of running processes and system resources.
+
+htop – An interactive, colorful process viewer (a more user-friendly version of top).
+
+kill <PID> – Sends a termination signal (SIGTERM) to gracefully stop a process by its ID.
+
+kill -9 <PID> – Forcefully kills a process immediately (SIGKILL) when it refuses to respond.
+
+pkill <name> – Matches and terminates processes by their actual name instead of their PID.
+
+bg – Resumes a suspended or paused job, running it quietly in the background.
+
+fg – Brings a background process back into the foreground to interact with it directly.
+
+📁 File System & Navigation
+pwd – Prints the absolute path of your current working directory.
+
+ls -lah – Lists all files (including hidden ones) in a highly readable format with sizes.
+
+cd /path/to/dir – Changes your current working directory to the specified path.
+
+mkdir -p <dir> – Creates a new directory, automatically building any missing parent folders.
+
+cp -r <src> <dest> – Copies files or entire directories recursively from source to destination.
+
+mv <src> <dest> – Moves or renames files and folders from one location to another.
+
+rm -rf <path> – Forcefully and recursively deletes files or directories (use with extreme caution!).
+
+df -h – Shows disk space usage for all mounted filesystems in a human-readable format.
+
+du -sh * – Displays the total disk space utilized by each file/folder in the current directory.
+
+🌐 Networking Troubleshooting
+ping -c 4 <host> – Sends 4 ICMP echo packets to test network connectivity to a server or IP.
+
+ip addr show – Displays active network interfaces, configurations, and assigned IP addresses.
+
+dig <domain> – Queries DNS name servers to look up domain records and troubleshoot resolution.
+
+curl -I <URL> – Fetches only the HTTP response headers from a web server to verify status codes.
