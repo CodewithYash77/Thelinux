@@ -1,5 +1,5 @@
 
-⚙️ Process Management
+ Process Management
 ps aux – Displays a snapshot of all currently running processes on the system.
 
 top – Provides a real-time, interactive view of running processes and system resources.
@@ -16,7 +16,7 @@ bg – Resumes a suspended or paused job, running it quietly in the background.
 
 fg – Brings a background process back into the foreground to interact with it directly.
 
-📁 File System & Navigation
+ File System & Navigation
 pwd – Prints the absolute path of your current working directory.
 
 ls -lah – Lists all files (including hidden ones) in a highly readable format with sizes.
@@ -35,7 +35,7 @@ df -h – Shows disk space usage for all mounted filesystems in a human-readable
 
 du -sh * – Displays the total disk space utilized by each file/folder in the current directory.
 
-🌐 Networking Troubleshooting
+ Networking Troubleshooting
 ping -c 4 <host> – Sends 4 ICMP echo packets to test network connectivity to a server or IP.
 
 ip addr show – Displays active network interfaces, configurations, and assigned IP addresses.
